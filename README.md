@@ -112,5 +112,6 @@ ldb = pytimber.LoggingDB(source="nxcals")
 ldb.search('LHC%BEAM_ENERGY%')
 ldb.get(ldb.search('LHC%BEAM_ENERGY%')[0], t1='2022-06-15 15:10:30.0000')
 ```
+c
 
 
